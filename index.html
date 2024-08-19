@@ -8,29 +8,39 @@
 <body>
     
     <form action="https://formspree.io/f/xzzpgejk" method="post">
-        <p>Nome:</p>
+        <p>Nome completo:</p>
         <input type="text" name="nome completo" placeholder="Nome completo" required>
-        <p>Email</p>
+        <p>Digite seu Email</p>
         <input type="email" name="email" placeholder="Email" value="@escola.pr.gov.br">
-        <p>Número de telefone</p>
+    <p>Número de telefone</p>
         <input type="number" name="telefone" placeholder="Telefone" required>
-        <p>Você é um estudante ?</p>
+        <p>Você trabalha?</p>
         <input type="radio" name="estudante" value="sim">sim
         <input type="radio" name="estudante" value="não">não
-        <p>Qual é sua profissão ?</p>
+        <p>selecione seu estado</p>
         <select name="profissao" id="">
-            <option value="1">hipócrita</option>
-            <option value="2">ironico</option>
-            <option value="3">cuzan</option>
-            <option value="4">sigma</option>
-            <option value="5">mala sem alça</option>
+            <option value="1">Acre</option>
+            <option value="2">Parana</option>
+            <option value="3">São Paulo</option>
+            <option value="4">Bahia</option>
+            <option value="5">Rio Grande do Sul</option>
             
         </select>
-        <p>Você quer o plano de saúde, custa muitos reais</p>
-        <input type="checkbox" name="saude">plano de saúde
+        <select name="Idade" id="">
+            <option value="1">Entre 0 a 10</option>
+            <option value="2">Entre 10 a 20</option>
+            <option value="3">Entre 20 a 30</option>
+            <option value="4">Entre 30 a 40</option>
+            <option value="5">Entre 40 a 50</option>
+            
+        </select>
+        
         <p>Tem alguma reclamação até agora ? Se sim, escreva na caixa abaixo</p>
         <textarea name="reclamacao" id=""></textarea>
         
+        <p>Você quer o plano de saúde, custa muitos reais</p>
+        <input type="checkbox" name="saude">plano de saúde
+
         <button tipe="submit">Enviar</button>
         <button tipe="reset">Apagar</button>
     </form>
